@@ -52,3 +52,9 @@ To call functions of a canister
 ```
 
 
+### Resources
+
+```
+DFX CLI Docs
+- https://internetcomputer.org/docs/current/references/cli-reference/
+```
