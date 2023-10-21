@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "dfx_install": "DFX_VERSION=0.15.1 sh -ci \"$(curl -fsSL https://sdk.dfinity.org/install.sh)\"",
+        "replica_start": "dfx start --background",
+        "replica_stop": "dfx stop",
+        "canister_deploy_local": "dfx deploy azle_calculator",
+        "canister_deploy_mainnet": "dfx deploy --network ic azle_calculator",
+        "canister_uninstall": "dfx canister uninstall-code azle_calculator",
+        "canister_call_get_answer": "dfx canister call azle_calculator getAnswer",
+        "canister_call_get_remainder": "dfx canister call azle_calculator getRemainder",
+        "canister_call_add": "dfx canister call azle_calculator add '(1, 2)'",
+        "canister_call_subtract": "dfx canister call azle_calculator subtract '(3, 2)'",
+        "canister_call_multiply": "dfx canister call azle_calculator multiply '(3, 2)'",
+        "canister_call_divide": "dfx canister call azle_calculator divide '(3, 2)'"
+    },
+    "dependencies": {
+        "azle": "0.18.5"
+    }
+}

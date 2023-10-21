@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "azle_calculator": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle azle_calculator",
+            "wasm": ".azle/azle_calculator/azle_calculator.wasm",
+            "gzip": true
+        }
+    }
+}
+

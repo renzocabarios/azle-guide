@@ -1,0 +1,8 @@
+service: () -> {
+    add: (int64, int64) -> ();
+    divide: (int64, int64) -> ();
+    getAnswer: () -> (int64) query;
+    getRemainder: () -> (int64) query;
+    multiply: (int64, int64) -> ();
+    subtract: (int64, int64) -> ();
+}
